@@ -1,0 +1,1 @@
+# Sergii_Kondratiuk_graphik-designer
