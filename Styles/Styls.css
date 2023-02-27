@@ -243,8 +243,8 @@ box-shadow: 0px 5.26027px 19.726px #00000095;
   margin-bottom: 7px;
 }
 
-.mine-contacts:hover .contacts__svg,
-.mine-contacts:focus .contacts__svg {
+.mine-contacts:hover,
+.mine-contacts:focus {
   fill: var(--bacground);
 }
 .mine-contacts:hover .link,
@@ -254,7 +254,10 @@ box-shadow: 0px 5.26027px 19.726px #00000095;
 }
 .contacts__svg {
   margin-right: 8px;
-  fill: var(--accent-color);
+  fill: currentColor;
+}
+.color {
+  color: var(--text-color);
 }
 .cotact-type {
   font-style: normal;
